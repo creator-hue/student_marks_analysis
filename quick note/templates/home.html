@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload CSV - Student Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body >
+    <div class="container">
+        <h1>Upload Student Score CSV</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="FILE" accept=".csv" required><br>
+            <button type="submit">Uplaod and see magic</button>
+        </form>
+    </div>
+</body>
+</html>

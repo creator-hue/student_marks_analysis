@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results - Student Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Results</h1>
+        <div class="stats">
+            <p><strong>Total Students:</strong> {{ total_students }}</p>
+            <p><strong>Average Score:</strong> {{ avg_score }}</p>
+            <p><strong>Highest Score:</strong> {{ highest_score }}</p>
+            <p><strong>Lowest Score:</strong> {{ lowest_score }}</p>
+        </div>
+        <img src="{{ url_for('static', filename='chart.png') }}" alt="Score Chart">
+        <br><br>
+        <a href="/"><button>Analyze Another File</button></a>
+    </div>
+</body>
+</html>

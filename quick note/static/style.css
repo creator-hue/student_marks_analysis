@@ -1,0 +1,66 @@
+/* General Reset and Fonts */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f6ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #2e4b8a;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* File Input & Button */
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #2e4b8a;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #1b3366;
+}
+
+/* Chart image */
+img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(201, 193, 193, 0.705);
+}
+
+/* Stats section */
+.stats {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
